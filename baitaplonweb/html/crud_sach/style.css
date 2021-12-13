@@ -19,7 +19,12 @@ header div {
 .nav__menu__list {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: left;
+	height: 80px;
+	align-items: flex-end;
+	margin-left: 110px;
+	margin-bottom: 50px;
+	font-size: 14px;
 }
 
 .nav__menu__list li {
@@ -27,25 +32,39 @@ header div {
 	/* background: #000; */
 	list-style: none;
 }
-
-.nav__menu__list li a {
+/*.nav__menu__list li a {
 	text-decoration: none;
 	color: #000;
 	font-size: 1.5rem;
 	transition: .3s ease;
-}
+}*/
 
 .nav__menu__list li a:hover {
-	box-shadow: 4px 4px 4px 4px #040303;
+	text-decoration: none;
 	
+}
+.nav__menu__list-btn{
+	background-color: #000;
+	color: #fff;
+	border-radius: 5px;
+	height: 40px;
+	width: 180px;
+	border: none;
+	outline: none;
+}
+.nav__menu__list-btn:hover{
+	background-color: #ccc;
 }
 
 .nav__menu__timkiem {
 	height: 30px;
 	width: 200px;
 	padding-left: 10px;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	transition: .5s ease;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #000;
 }
 
 .nav__menu__timkiem:hover {
@@ -117,6 +136,7 @@ button:hover {
 	/* border: 1px solid #000; */
 	border-collapse: collapse;
   	width: 100%;
+	margin: 0 50px;
 }
 
 .col {

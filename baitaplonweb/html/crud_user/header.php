@@ -20,21 +20,21 @@ if(isset($_SESSION['taikhoan'])) {
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../crud_sach/style.css">
 </head>
 <body>
 	<!-- Bắt đầu header -->
 	<header>
 
 		<!-- tiêu đề của trang -->
-		<div>Danh sách user</div>
+		<div style="width: 100%; text-align: center; font-style: italic;">Danh sách user</div>
 
 		<!-- Thanh tìm kiếm -->
 		<nav class="nav__menu">
 
 			<ul class="nav__menu__list">
 
-				<li><a href="them.php" target="_self">Thêm user</a></li>
+				<li><a href="them.php" target="_self"><button class="nav__menu__list-btn">Thêm user</button></a></li>
 
 				<li>
 
